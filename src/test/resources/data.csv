@@ -1,0 +1,5 @@
+name| amount| registered| expected
+"registered user, bonus over limit"| 1_000_000| true| 500
+"registered user, bonus under limit"| 1_000| true| 30
+"not registered user, bonus over limit"| 1_000_000| false| 500
+"not registered user, bonus under limit"| 1_000| false| 10
